@@ -9,6 +9,3 @@ cout<<"the ^ operation on a and b is "<<a^b;
 cout<<"the ~ operation on a  is "<<~a;
 return 0;
 }
-
-
-  
