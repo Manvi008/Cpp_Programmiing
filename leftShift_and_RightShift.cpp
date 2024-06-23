@@ -5,5 +5,18 @@
 
   Lets talk about right shift now 
 example 15>>1 o/p=1
-NOTE :padding with always 0 in positive numbers
+NOTE :padding with always 0 in positive numbers, int the case of negative numbers it is compiler dependent 
 */
+#include<iostream>
+using namespace std;
+int main(){
+ int i=12>>1;
+ int j=12<<2;
+ cout<<i<<endl;
+ cout<<j;
+return 0;
+}
+/*
+  6
+  48
+  */
