@@ -23,3 +23,13 @@ int main(){
     
     return 0;
 }
+/*array&pointer*/
+#include<iostream>
+using namespace std;
+int main(){
+    int arr[]={1,2,3,4,5};
+    int *ptr=arr;
+    cout<<"the address of the array is"<<ptr<<endl;
+    cout<<"the address of the array is"<<&arr<<endl;
+    return 0;
+}
