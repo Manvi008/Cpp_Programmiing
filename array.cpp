@@ -33,3 +33,6 @@ int main(){
     cout<<"the address of the array is"<<&arr<<endl;
     return 0;
 }
+
+/*the adrress of thge array is 0x7ffd9d7a5510
+    the address of the array is 0x7ffd9d7a5510*/
