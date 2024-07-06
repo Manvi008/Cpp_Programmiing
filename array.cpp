@@ -36,3 +36,8 @@ int main(){
 
 /*the adrress of thge array is 0x7ffd9d7a5510
     the address of the array is 0x7ffd9d7a5510*/
+
+/*In the above code, we first define an array “arr” and then declare a pointer “ptr” and assign the array “arr” to it. We are able 
+to assign arr to ptr because arr is also a pointer. After that, we print the memory address of arr using reference operator (&) and also print the address 
+    stored in pointer ptr and we can see arr and ptr,*/
+    both stores the same memory address.
